@@ -7,7 +7,7 @@ class Solution:
 
         start = 0
         end = len(strs) - 1
-        for ch in strs :
+        while start<end :
             if strs[start]!=strs[end]:
                 return False
             else : 
